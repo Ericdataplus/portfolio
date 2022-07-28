@@ -6,6 +6,7 @@ import propertyImg from '../public/assets/projects/property.jpg';
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import twitchImg from '../public/assets/projects/twitch.jpg'
 import ProjectItem from './ProjectItem';
+import ai21img from '../public/ai21.png';
 
 const Projects = () => {
   return (
@@ -31,8 +32,8 @@ const Projects = () => {
 
           /> */}
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
+            title='ai21 Futurism Chatbot'
+            backgroundImg={ai21img}
             projectUrl='/netflix'
             tech='React JS'
 
