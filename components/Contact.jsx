@@ -49,7 +49,7 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a
+                  {/* <a
                     href='https://www.linkedin.com/in/clint-briley-50056920a/'
                     target='_blank'
                     rel='noreferrer'
@@ -57,9 +57,9 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </a>
+                  </a> */}
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/Ericdataplus'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -71,13 +71,13 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
+                  {/* <Link href='/resume'>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
